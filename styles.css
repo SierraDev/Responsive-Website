@@ -9,7 +9,13 @@ body {
     margin: 0;
     font-family: 'Share Tech Mono', monospace;
     text-align: center;
-    background: #1d1e2b;
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 img {
@@ -107,7 +113,6 @@ p:last-of-type {
     margin: 0 0 .5em;
     color: #FFF;
 }
-
 
 .unstyled-list {
     margin: 0;
@@ -216,12 +221,12 @@ nav a:focus {
     font-size: 1em;
 }
 
-.logo{
+.logo {
     font-family: 'Audiowide', monospace;
     font-size: 2em;
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.1);
 }
 
@@ -325,12 +330,13 @@ nav a:focus {
     margin: 3em 0 0;
 }
 
-.portfolio__title{
+.portfolio__title {
     font-family: 'Audiowide', monospace;
     font-size: 2em;
     letter-spacing: .5em;
 }
-.portfolio__title:hover{
+
+.portfolio__title:hover {
     transform: scale(1.2);
 }
 
@@ -384,11 +390,18 @@ nav a:focus {
 .cta {
     background-color: #ffae00;
     padding: 5em 0;
+    position: relative;
 }
 
 /* Footer */
 footer {
-    background: #1d1e2b;
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: #fff;
     text-align: left;
     padding: 5em 0;
