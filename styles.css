@@ -336,10 +336,6 @@ nav a:focus {
     letter-spacing: .5em;
 }
 
-.portfolio__title:hover {
-    transform: scale(1.2);
-}
-
 .port-item {
     margin: 0;
     position: relative;
