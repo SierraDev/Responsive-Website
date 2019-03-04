@@ -5,6 +5,10 @@
     transition: all ease-in-out 250ms;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Share Tech Mono', monospace;
